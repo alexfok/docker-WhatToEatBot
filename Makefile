@@ -1,5 +1,5 @@
 AUTHOR = frdmn
-NAME = docker-WhatToEatBot
+NAME = docker-whattoeatbot
 VERSION = 1.0.0
 HOSTPORT = 7777
 SHELL := /bin/bash
