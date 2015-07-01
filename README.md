@@ -8,7 +8,7 @@ Dockerized version of my tiny NodeJS based [Telegram Bot - @WhatToEatBot](https:
   `git clone https://github.com/frdmn/docker-WhatToEatBot.git /opt/docker-WhatToEatBot`
 1. Adjust configuration:  
   `cd /opt/docker-WhatToEatBot`  
-  `cp opt/config.example.json opt/config.json`  
+  `cp opt/config.default.json opt/config.json`  
   `vi opt/config.js`  
 1. Build docker image:  
   `make build`
