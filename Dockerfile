@@ -5,14 +5,14 @@ MAINTAINER Jonas Friedmann <j@frd.mn>
 # Clone haste-server from git
 RUN git clone https://github.com/frdmn/telegram-WhatToEatBot.git /opt/telegram-WhatToEatBot
 
-# Adding customization theme setup to haste
+# Overwrite token configuration file
 ADD opt/config.json /opt/telegram-WhatToEatBot/
 
 # Set working directory
 WORKDIR /opt/telegram-WhatToEatBot
 
-# Install haste-server
+# Install bot dependencies
 RUN npm install
 
-# Start actual haste-server
+# Start actual bot
 CMD npm start
