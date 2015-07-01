@@ -1,40 +1,22 @@
-# docker-WhatToEat
+# docker-WhatToEatBot
 
-[description]
+Dockerized version of my tiny NodeJS based [Telegram Bot - @WhatToEatBot](https://github.com/frdmn/telegram-WhatToEatBot).
 
-## Installation
+### Installation
 
-1. Make sure you've installed all requirements
-2. Clone this repository:
-  `git clone https://github.com/[GitHubUsername]/docker-WhatToEat`
-3. Install the project using `make`:
-  `make install`
+1. Clone repository:  
+  `git clone https://github.com/frdmn/docker-WhatToEatBot.git /opt/docker-WhatToEatBot`
+1. Adjust configuration:  
+  `cd /opt/docker-WhatToEatBot`  
+  `cp opt/config.example.json opt/config.json`  
+  `vi opt/config.js`  
+1. Build docker image:  
+  `make build`
+1. Run container:  
+  `make run`
 
-## Usage
-
-Here's a short explanation how to use `docker-WhatToEat`:
-
-* Use it
-* Profit
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch: `git checkout -b feature/my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature/my-new-feature`
-5. Submit a pull request
-
-## Requirements / Dependencies
-
-* This
-* That
-* As well as this
-
-## Version
-
+### Version
 1.0.0
 
-## License
-
-[/USR/LOCAL/LIB/NODE_MODULES/INIT.JS/LICENSES/MIT](LICENSE)
+### Lincense
+[MIT](LICENSE)
